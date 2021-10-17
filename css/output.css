@@ -1,0 +1,128 @@
+/* ====================OUTPUT==================== */
+.output {
+  position: absolute;
+  height: 1035px;
+  width: 100%;
+  background-color: #f5f6fa;
+  top: 891px;
+}
+/* ==========Wrapper-2========== */
+.output .wrapper-2nd {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 25px 90px 0 90px;
+}
+/* 3 box items Top */
+.output .wrapper-2nd .box-item-top {
+  position: relative;
+  margin-bottom: 15%;
+  /* width: 50%; */
+  /* left: 20%; */
+}
+/* 3 box items Bottom */
+.output .wrapper-2nd .box-item-bottom {
+  position: relative;
+  margin-top: 100%;
+}
+/* Box Styling */
+.output .wrapper-2nd .box {
+  width: 300px;
+  height: 350px;
+  margin: 25px 25px 0 25px;
+
+  background: #ffffff;
+  border: 3px solid #e5f1ff;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  position: absolute;
+  top: 10px;
+}
+/* Icon Styling */
+.output .wrapper-2nd .icon {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  z-index: 2;
+}
+/* Problems arise */
+.output .wrapper-2nd .roadmap,
+.watch,
+.graduation {
+  position: absolute;
+  left: 28%;
+  top: 20%;
+  z-index: 2;
+}
+.output .wrapper-2nd .watch {
+  position: absolute;
+  left: 26%;
+  top: 20%;
+  z-index: 2;
+}
+.output .wrapper-2nd .graduation {
+  position: absolute;
+  left: 26%;
+  top: 20%;
+  z-index: 2;
+}
+.output .wrapper-2nd .box-item-top .circle {
+  background-color: #fdf0d6;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 40%;
+  z-index: 1;
+}
+.output .wrapper-2nd .box-item-bottom .circle {
+  background-color: #e5f1ff;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 40%;
+  z-index: 1;
+}
+.output .wrapper-2nd .box-item-bottom .watch {
+  background-color: #ffe3de;
+}
+/* Textbox Styling */
+.output .text-box {
+  line-height: 25px;
+  top: 10%;
+  position: relative;
+  font-size: 1rem;
+}
+.output .text-box h5 {
+  text-align: center;
+  padding: 40% 13% 0;
+
+  position: absolute;
+}
+.output .text-box p {
+  text-align: center;
+  padding: 120% 10% 0;
+
+  position: absolute;
+}
+/* Click button */
+.output .text-box .click-btn {
+  position: absolute;
+  text-align: center;
+  padding: 125% 20% 0;
+}
+.output .text-box .click-btn a {
+  color: #1479f4;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+}
+.output .text-box .click-btn:hover {
+  font-size: 1.2rem;
+  padding: 125% 15% 0;
+}

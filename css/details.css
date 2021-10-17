@@ -1,0 +1,119 @@
+/* ====================DETAILS==================== */
+.details {
+  position: absolute;
+  height: 751px;
+  width: 100%;
+  left: 0px;
+  top: 1926px;
+}
+/* ==========Wrap========== */
+.details .wrapper-3rd {
+  position: absolute;
+  width: 75%;
+  height: 541px;
+  left: 145px;
+  /* top: 2171px; */
+
+  background: #f5f6fa;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  margin-top: 50px;
+}
+/* ================Title===============  */
+.details .wrapper-3rd .title {
+  /* position: absolute; */
+  width: 94%;
+  height: 29px;
+  /* left: 25px;
+  top: 25px; */
+  display: flex;
+  /* margin: 0 0; */
+  padding: 25px 25px 0 25px;
+  justify-content: space-between;
+}
+/* ==========Left-content==========  */
+.details .wrapper-3rd .title .left-content {
+  /* position: absolute; */
+  width: 30%;
+  height: 29px;
+  padding: 20px 0 0 40px;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+.left-content > img {
+  /* position: absolute; */
+  width: 16px;
+  height: 18px;
+  padding-right: 12px;
+  /* justify-items: center; */
+  /* justify-content: center; */
+}
+.left-content > p {
+  /* position: absolute; */
+  height: 29px;
+
+  font-style: normal;
+  line-height: 29px;
+  font-weight: bold;
+}
+/* ==========Right-content==========  */
+.details .wrapper-3rd .title .right-content {
+  /* position: absolute; */
+  width: 30%;
+  height: 29px;
+  display: flex;
+  padding: 20px 40px 0 0;
+  align-items: center;
+  gap: 0.375rem;
+}
+.details .wrapper-3rd .title .right-content-1 {
+  width: 31%;
+  height: 29px;
+  display: flex;
+  padding: 20px 40px 0 0;
+  align-items: center;
+  gap: 0.375rem;
+}
+.details .wrapper-3rd .title .right-content-2 {
+  width: 18.5%;
+  height: 29px;
+  display: flex;
+  padding: 20px 40px 0 0;
+  align-items: center;
+  gap: 0.375rem;
+}
+.details .wrapper-3rd .title .right-content-3 {
+  width: 18%;
+  height: 29px;
+  display: flex;
+  padding: 20px 40px 0 0;
+  align-items: center;
+  gap: 0.375rem;
+}
+.right-content .image {
+  height: 7px;
+  width: 7px;
+}
+.right-content-1 .image {
+  height: 7px;
+  width: 7px;
+}
+.right-content > img {
+  /* position: absolute; */
+  width: 16px;
+  height: 18px;
+  /* padding-right: 12px; */
+}
+.right-content > p {
+  /* position: absolute; */
+  height: 29px;
+
+  font-style: normal;
+  line-height: 29px;
+}
+/* ==========Space-between==========  */
+.space-between {
+  display: flex;
+}

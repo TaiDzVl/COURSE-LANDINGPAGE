@@ -1,0 +1,92 @@
+/* ====================INPUT==================== */
+.input {
+  position: absolute;
+  height: 351px;
+  width: 100%;
+  top: 540px;
+}
+/* ==========Wrapper-1========== */
+.input .wrapper {
+  display: flex;
+}
+/* Span Styling */
+.input span {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+/* ===============Input-Require=============== */
+.input .input-require {
+  position: relative;
+  display: flex;
+  width: 50%;
+  left: 20%;
+}
+/* ==========Input box Styling========== */
+.input-box {
+  width: 320px;
+  height: 160px;
+
+  position: absolute;
+  top: 35px;
+
+  background: #ffffff;
+  border: 3px solid #e5f1ff;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+/* ==========Input icon Styling========== */
+.ic_user {
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}
+/* ==========Textbox Styling========== */
+.input-textbox {
+  text-align: center;
+  line-height: 25px;
+  top: 30%;
+  position: absolute;
+  font-size: 1rem;
+}
+.input-textbox p {
+  padding: 15px 25px;
+}
+/* ===============Output-Result=============== */
+.input .output-result {
+  position: relative;
+  display: flex;
+  width: 50%;
+  left: 5%;
+}
+/* ==========Output box Styling========== */
+.output-box {
+  width: 320px;
+  height: 160px;
+
+  position: absolute;
+  top: 35px;
+
+  background: #ffffff;
+  border: 3px solid #e5f1ff;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+/* ==========Output icon Styling========== */
+.ic_graduate {
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}
+/* ==========Paragraph Styling========== */
+.output-textbox {
+  text-align: center;
+  line-height: 25px;
+  top: 30%;
+  position: absolute;
+  font-size: 1rem;
+}
+.output-textbox p {
+  padding: 15px 30px;
+}
